@@ -1,0 +1,249 @@
+.button {
+    font-family: 'Arial', sans-serif;
+    font-weight: normal;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  }
+
+.button:hover {
+    box-shadow: 0 4px 10px rgba(137, 131, 233, 0.3); 
+    transform: translateY(-1px); /* Slight lift effect */
+}
+
+.button:active {
+    box-shadow: 0 1px 8px rgba(1, 59, 247, 0.2); /* Reduced shadow on click */
+    transform: translateY(0); /* Reset lift effect */
+}
+  
+  .button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
+  /* Sizes */
+  .small {
+    font-size: 14px;
+    height: 31px;
+    line-height: 14px;
+    padding: 6px 16px;
+  }
+  .icon_small{
+    width: 31px;
+    height: 31px;
+  }
+  
+  .medium {
+    font-size: 16px;
+    height: 40px;
+    line-height: 16px;
+    padding: 10px 24px;
+  }
+  .icon_medium{
+    width: 40px;
+    height: 40px;
+  }
+
+  .large {
+    font-size: 16px;
+    height: 44px;
+    line-height: 16px;
+    padding: 11px 28px;
+  }
+
+  .icon_large{
+    width: 44px;
+    height: 44px;
+  }
+  
+  /* Variants */
+  .primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .secondary {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .warning {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .light {
+    background-color: #f8f9fa;
+    color: black;
+  }
+  
+  .dark {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .link {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Outline variants */
+  .outline-primary {
+    background-color: transparent;
+    border: 1px solid #007bff;
+    color: #007bff;
+  }
+  
+  .outline-secondary {
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    color: #6c757d;
+  }
+  
+  .outline-success {
+    background-color: transparent;
+    border: 1px solid #28a745;
+    color: #28a745;
+  }
+  
+  .outline-danger {
+    background-color: transparent;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+  }
+  
+  .outline-warning {
+    background-color: transparent;
+    border: 1px solid #ffc107;
+    color: #ffc107;
+  }
+  
+  .outline-info {
+    background-color: transparent;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+  }
+  
+  .outline-light {
+    background-color: transparent;
+    border: 1px solid #82b0df;
+    color: #3c4955;
+  }
+  
+  .outline-dark {
+    background-color: transparent;
+    border: 1px solid #343a40;
+    color: #343a40;
+  }
+  
+  /* Special variants */
+  .dashed {
+    background-color: transparent;
+    border: 1px dashed #007bff;
+    color: #007bff;
+  }
+  
+  .underline {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  
+  
+  /* Full width */
+  .fullWidth {
+    width: 100%;
+  }
+  
+  /* Loading state */
+  .loading {
+    position: relative;
+    color: transparent !important;
+  }
+  
+  .loader {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    margin: 0;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    animation: spin 0.6s linear infinite;
+    transition-duration: 3s;
+  }
+  
+  @keyframes spin {
+    from { transform: rotate(150deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  /* Hover effects */
+  .button:hover:not(:disabled) {
+    opacity: 0.9;
+  }
+  
+  /* Active effects */
+  .button:active:not(:disabled) {
+    transform: scale(1);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .small {
+      font-size: 10px;
+      padding: 6px 11px;
+    }
+  
+    .large {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .button {
+      font-size: 11px;
+      padding: 6px 11px;
+    }
+  
+    .small {
+      font-size: 10px;
+      padding: 4px 8px;
+    }
+  
+    .large {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+  
