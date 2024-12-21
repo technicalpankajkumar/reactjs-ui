@@ -1,5 +1,5 @@
 
-import { Button } from '../lib/components/button/Button'
+import { Button } from 'libraricals-ui'
 
 
 function App() {

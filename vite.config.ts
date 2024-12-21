@@ -10,7 +10,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, 'lib/main.ts'), // Your library entry point
       name: 'reatjs-ui', // The name of your library
-      fileName: 'reactjs-ui', // Output file name
+      fileName: 'libraricals-ui', // Output file name
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime'],

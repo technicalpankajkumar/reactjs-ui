@@ -7,7 +7,7 @@
     "module": "ESNext",
     "skipLibCheck": true,
     "paths":{
-      "reactjs-ui":["./lib/main.ts"]
+      "libraricals-ui":["./lib/main.ts"]
     },
 
     /* Bundler mode */

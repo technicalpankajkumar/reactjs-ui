@@ -1,17 +1,17 @@
 {
-  "name": "reactjs-ui",
-  "private": true,
+  "name": "libraricals-ui",
   "version": "0.0.1",
   "type": "module",
+  "description": "A React UI library",
   "files": [
     "dist"
   ],
-  "main": "./dist/reactjs-ui.umd.cjs",
-  "module": "./dist/reactjs-ui.js",
+  "main": "./dist/libraricals-ui.umd.cjs",
+  "module": "./dist/libraricals-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/reactjs-ui.js",
-      "require": "./dist/reactjs-ui.umd.cjs"
+      "import": "./dist/libraricals-ui.js",
+      "require": "./dist/libraricals-ui.umd.cjs"
     }
   },
   "scripts": {
@@ -20,6 +20,8 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  "keywords": ["react", "ui", "library","libraricals","reactjs"],
+  "author": "Technical Pankaj kumar",
   "dependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
