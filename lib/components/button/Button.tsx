@@ -61,7 +61,7 @@ export const Button: React.FC<ButtonProps> = ({
             ...styles?.loading
           }}
         >
-          <span className={`${stylesModule.loader} ${stylesModule[variant]}`} style={styles?.loader}></span>
+          <span className={`${stylesModule.loader} ${stylesModule[variant]} `} style={{...styles?.loader}}></span>
           <span
             className={`${stylesModule[variant]}`}
             style={{

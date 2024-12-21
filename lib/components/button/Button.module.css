@@ -9,6 +9,7 @@
     justify-content: center;
     text-decoration: none;
     transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    margin: 2px 0px;
   }
 
 .button:hover {
@@ -185,8 +186,8 @@
   
   .loader {
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 12px;
+    height: 12px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     margin: 0;
@@ -197,7 +198,6 @@
   }
   
   @keyframes spin {
-    from { transform: rotate(150deg); }
     to { transform: rotate(360deg); }
   }
   

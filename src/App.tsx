@@ -1,12 +1,14 @@
 
-import { Button } from 'reactjs-ui'
+import { Button } from '../lib/components/button/Button'
 
 
 function App() {
 
   return (
     <>
-     <Button value="Hello" />
+     <Button value="Hello" isLoading size='small'/>
+     <Button value="Hello" isLoading size='medium'/>
+     <Button value="Hello" isLoading size='large'/>
     </>
   )
 }
