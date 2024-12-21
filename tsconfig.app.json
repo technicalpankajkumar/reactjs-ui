@@ -25,8 +25,4 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  // "include": [
-  //   "lib/**/*",
-  //   "global.d.ts" // or "types/**/*" if you put it in a types folder
-  // ]
 }
